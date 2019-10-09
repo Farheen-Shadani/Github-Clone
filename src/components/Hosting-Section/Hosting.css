@@ -1,0 +1,35 @@
+#hosting {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #586069;
+    padding: 1.5em;
+    width: 43%;
+    border: 0.5px solid #dadbdd;
+    border-radius: 5px;
+    margin-bottom: 15em;
+}
+
+#hosting>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hosting h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #24292e;
+}
+
+#hosting p {
+    padding: 0.5em 0em;
+}
+
+#hosting a {
+    font-size: 1.1em;
+    color: #0366d6;
+    padding: 0.2em 0em;
+}

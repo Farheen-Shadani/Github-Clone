@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3em 0em;
+    color: #ffffff;
+    background-color: #24292e;
+}
+
+#logo, #btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo>i {
+    font-size: 2.3em;
+    margin: 0em 0.5em;
+}
+
+nav>a {
+    font-size: 1.1em;
+    margin: 0em 0.5em;
+}
+
+nav>a>i {
+    font-size: 0.6em;
+}
+
+#btns>button {
+    font-size: 1.1em;
+    margin: 0em 0.6em;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    color: #ffffde;
+}
+
+header button>input {
+    background-color: transparent;
+    border: none;
+    color: #8d8f92;
+    font-size: 0.9em;
+    padding: 0.6em;
+}
+
+.search-btn {
+    background-color: #404448;
+    border-radius: 4px;
+}
+
+.signIn-btn {
+    font-size: 1.1em;
+}
+
+.signUp-btn {
+    font-size: 1.1em;
+    border: 1px solid #ffffde;
+    border-radius: 5px;
+    padding: 0.4em 1em;
+}

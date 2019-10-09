@@ -1,0 +1,13 @@
+.btn {
+    background-color: transparent;
+    padding: 1.4em;
+    color: #1074e8;
+    border: 1px solid #87b9f3;
+    border-radius: 4px;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.btn>span {
+    margin-left: 0.5em;
+}

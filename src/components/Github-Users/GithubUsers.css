@@ -1,0 +1,99 @@
+#github-users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5em 7em 5.5em;
+}
+
+#circular-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: #ffffff;
+}
+
+#circular-description>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 0.5em 1em;
+}
+
+#circular-description>div>h1 {
+    font-size: 2.6em;
+    font-weight: 400;
+    width: 100%;
+}
+
+#circular-description>div>p {
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0.6em !important;
+    width: 70%;
+}
+
+#circular-description>.repositories {
+    background-color: #f66a0a;
+    padding: 4.5em 1.5em;
+    width: 35%;
+}
+
+#circular-description>.repositories>p {
+    width: 100%;
+}
+
+#circular-description>.repositories span {
+    color: #f66a0a;
+}
+
+#circular-description>.developers {
+    background-color: #0366d6;
+    padding: 2.5em 0.7em;
+    width: 30%;
+}
+
+#circular-description>.business {
+    background-color: #6f42c1;
+    padding: 1em 0.7em;
+    width: 25%;
+}
+
+#written-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #777777;
+    width: 40%;
+}
+
+#written-description>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 1em 0em;
+}
+
+#written-description>div>p {
+    line-height: 1.5em;
+    text-align: left;
+    width: 75%;
+    color: #24292e;
+}
+
+.repositories-info span {
+    color: #f66a0a;
+}
+
+.developers-info span {
+    color: #0366d6;
+}
+
+.business-info span {
+    color: #6f42c1;
+}

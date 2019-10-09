@@ -1,0 +1,53 @@
+#integrators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+    margin: 4em 0em 6em;
+}
+
+#integrators>img {
+    height: auto;
+    border-radius: 100%;
+    margin: 0em 1em;
+    width: 60px;
+    padding: 1.5em;
+}
+
+.upside {
+    align-self: flex-start;
+}
+
+.downside {
+    align-self: flex-end;
+}
+
+#slack {
+    background-color: #4a154b;
+}
+
+#zenhub {
+    background-color: #364e98;
+}
+
+#travis {
+    background-color: #eff9f9;
+}
+
+#atom {
+    background-color: #5fb57d;
+}
+
+#circle {
+    background-color: #002531;
+}
+
+#google {
+    background-color: #f2f2f2;
+}
+
+#code {
+    background-color: #303030;
+}

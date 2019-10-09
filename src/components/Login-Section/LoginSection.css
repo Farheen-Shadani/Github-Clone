@@ -1,0 +1,105 @@
+#login {
+    width: 100%;
+    background-image: url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    text-align: left;
+}
+
+#login-background {
+    height: 100vh;
+    background-color: #2b3137f8;
+    position: relative;
+}
+
+#login-front {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info, #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#info {
+    width: 50%;
+}
+
+#info>h1 {
+    font-size: 4.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    margin-bottom: 0.2em;
+}
+
+#info>p {
+    font-size: 1.5em;
+    color: #a3a6a8;
+}
+
+#info>p>a {
+    color: #ffffff;
+    border-block-end: 0.2px solid #a3a6a8;
+}
+
+#form {
+    width: 37%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 1.5em;
+    border-radius: 5px;
+    color: #2a2f34;
+}
+
+#form>label {
+    font-size: 1.1em;
+    color: #3e4347;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+#form>input {
+    font-size: 1.5em;
+    width: 91%;
+    padding: 0.5em;
+    color: #3e4347;
+    background-color: transparent;
+    border: 0.5px solid #a3a6a8f3;
+    border-radius: 4px;
+    margin-bottom: 0.9em;
+}
+
+.password {
+    margin-bottom: 0em !important;
+}
+
+#form>p {
+    font-size: 0.8em;
+}
+
+#form>p>a {
+    color: blue;
+}
+
+#form>button {
+    background-color: #2ebc4f;
+    border: none;
+    border-radius: 4px;
+    color: #f6fcf7;
+    padding: 1.2em;
+    margin: 1.2em 0em;
+    font-size: 1.2em;
+    width: 100%;
+}

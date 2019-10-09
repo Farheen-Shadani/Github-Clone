@@ -1,0 +1,17 @@
+#organizations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 1.5em;
+    margin-bottom: 12em;
+}
+
+#organizations>img {
+    height: 30px;
+    width: auto;
+    margin: 0.5em 1.5em;
+    color: #565656;
+    filter: grayscale(100%);
+}

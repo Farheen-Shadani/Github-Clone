@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* -------------MAIN---------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main>h1 {
+  font-size: 3.3em;
+  font-weight: 500;
+  width: 60%;
+  color: #24292e;
+  margin: 0.3em;
+}
+
+main>h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  width: 54%;
+  color: #586069;
+  margin-bottom: 0.8em;
+}
+
+.welcome {
+  width: 40%;
+}
+
+main>h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #484c50;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main>p {
+  color: #586069;
+  width: 28%;
+  margin-bottom: 1em;
+}
+
+main>a {
+  margin-bottom: 11em;
+  font-size: 1.2em;
+  color: #0366d6;
+}

@@ -1,0 +1,30 @@
+#github-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-image: url(https://github.githubassets.com/images/modules/site/iso-ui.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 5em auto;
+    padding: 7em 0em;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+#github-action>h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+#github-action>p {
+    font-size: 1.2em;
+    margin-top: 0.3em;
+    color: #b9b9b9;
+}
+
+#github-action>button {
+    border: 1px solid #1b4d88;
+    color: #ffffff;
+}

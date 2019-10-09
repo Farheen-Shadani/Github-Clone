@@ -1,0 +1,36 @@
+#code-security {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 3em 0em;
+}
+
+.security-matter {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    color: #586069;
+}
+
+.security-drawing {
+    width: 50%;
+}
+
+.security-drawing>img {
+    width: 100%;
+}
+
+.security-matter h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0.5em 0em;
+    color: #24292e;
+}
+
+.security-matter p {
+    margin-bottom: 1.8em;
+}
